@@ -19,11 +19,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float JumpForce = 30f;
             public AnimationCurve SlopeCurveModifier = new AnimationCurve(new Keyframe(-90.0f, 1.0f), new Keyframe(0.0f, 1.0f), new Keyframe(90.0f, 0.0f));
             [HideInInspector] public float CurrentTargetSpeed = 8f;
+            private Animator anim;
 
 #if !MOBILE_INPUT
             private bool m_Running;
 #endif
-
+            public void Start()
+            {
+                anim.GetComponent<Animator>();
+                Debug.Log("animator init");
+            }
             public void UpdateDesiredTargetSpeed(Vector2 input)
             {
 	            if (input == Vector2.zero) return;
@@ -42,7 +47,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 					//forwards
 					//handled last as if strafing and moving forward at the same time forwards speed should take precedence
 					CurrentTargetSpeed = ForwardSpeed;
-				}
+                    anim.SetBool("IsRunning", true);
+                }
 #if !MOBILE_INPUT
 	            if (Input.GetKey(RunKey))
 	            {
@@ -52,7 +58,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	            else
 	            {
 		            m_Running = false;
-	            }
+                }
 #endif
             }
 
@@ -123,6 +129,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
+            Debug.Log("animator init");
         }
 
 

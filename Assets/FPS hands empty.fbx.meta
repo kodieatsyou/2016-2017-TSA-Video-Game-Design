@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6a70be9707c426b4fbd0a7778d77af0c
+timeCreated: 1478412080
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: caucasian_male_1
+    100004: caucasian_male_1:Body
+    100006: clavicle.L
+    100008: clavicle.R
+    100010: deltoid.L
+    100012: deltoid.R
+    100014: f_index.01.L
+    100016: f_index.01.R
+    100018: f_index.02.L
+    100020: f_index.02.R
+    100022: f_index.03.L
+    100024: f_index.03.L_end
+    100026: f_index.03.R
+    100028: f_index.03.R_end
+    100030: f_middle.01.L
+    100032: f_middle.01.R
+    100034: f_middle.02.L
+    100036: f_middle.02.R
+    100038: f_middle.03.L
+    100040: f_middle.03.L_end
+    100042: f_middle.03.R
+    100044: f_middle.03.R_end
+    100046: f_pinky.01.L
+    100048: f_pinky.01.R
+    100050: f_pinky.02.L
+    100052: f_pinky.02.R
+    100054: f_pinky.03.L
+    100056: f_pinky.03.L_end
+    100058: f_pinky.03.R
+    100060: f_pinky.03.R_end
+    100062: f_ring.01.L
+    100064: f_ring.01.R
+    100066: f_ring.02.L
+    100068: f_ring.02.R
+    100070: f_ring.03.L
+    100072: f_ring.03.L_end
+    100074: f_ring.03.R
+    100076: f_ring.03.R_end
+    100078: forearm.L
+    100080: forearm.L_end
+    100082: forearm.R
+    100084: forearm.R_end
+    100086: //RootNode
+    100088: hand.L
+    100090: hand.L.control
+    100092: hand.R
+    100094: hand.R.control
+    100096: Lamp
+    100098: Lamp.001
+    100100: palm_index.L
+    100102: palm_index.R
+    100104: palm_middle.L
+    100106: palm_middle.R
+    100108: palm_pinky.L
+    100110: palm_pinky.R
+    100112: palm_ring.L
+    100114: palm_ring.R
+    100116: thumb.01.L
+    100118: thumb.01.R
+    100120: thumb.02.L
+    100122: thumb.02.R
+    100124: thumb.03.L
+    100126: thumb.03.L_end
+    100128: thumb.03.R
+    100130: thumb.03.R_end
+    100132: upper_arm.L
+    100134: upper_arm.R
+    400000: Camera
+    400002: caucasian_male_1
+    400004: caucasian_male_1:Body
+    400006: clavicle.L
+    400008: clavicle.R
+    400010: deltoid.L
+    400012: deltoid.R
+    400014: f_index.01.L
+    400016: f_index.01.R
+    400018: f_index.02.L
+    400020: f_index.02.R
+    400022: f_index.03.L
+    400024: f_index.03.L_end
+    400026: f_index.03.R
+    400028: f_index.03.R_end
+    400030: f_middle.01.L
+    400032: f_middle.01.R
+    400034: f_middle.02.L
+    400036: f_middle.02.R
+    400038: f_middle.03.L
+    400040: f_middle.03.L_end
+    400042: f_middle.03.R
+    400044: f_middle.03.R_end
+    400046: f_pinky.01.L
+    400048: f_pinky.01.R
+    400050: f_pinky.02.L
+    400052: f_pinky.02.R
+    400054: f_pinky.03.L
+    400056: f_pinky.03.L_end
+    400058: f_pinky.03.R
+    400060: f_pinky.03.R_end
+    400062: f_ring.01.L
+    400064: f_ring.01.R
+    400066: f_ring.02.L
+    400068: f_ring.02.R
+    400070: f_ring.03.L
+    400072: f_ring.03.L_end
+    400074: f_ring.03.R
+    400076: f_ring.03.R_end
+    400078: forearm.L
+    400080: forearm.L_end
+    400082: forearm.R
+    400084: forearm.R_end
+    400086: //RootNode
+    400088: hand.L
+    400090: hand.L.control
+    400092: hand.R
+    400094: hand.R.control
+    400096: Lamp
+    400098: Lamp.001
+    400100: palm_index.L
+    400102: palm_index.R
+    400104: palm_middle.L
+    400106: palm_middle.R
+    400108: palm_pinky.L
+    400110: palm_pinky.R
+    400112: palm_ring.L
+    400114: palm_ring.R
+    400116: thumb.01.L
+    400118: thumb.01.R
+    400120: thumb.02.L
+    400122: thumb.02.R
+    400124: thumb.03.L
+    400126: thumb.03.L_end
+    400128: thumb.03.R
+    400130: thumb.03.R_end
+    400132: upper_arm.L
+    400134: upper_arm.R
+    4300000: caucasian_male_1:Body
+    7400000: T-Pose
+    7400002: Wield
+    7400004: Idle
+    7400006: Run
+    7400008: Punch
+    9500000: //RootNode
+    13700000: caucasian_male_1:Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wield
+      takeName: caucasian_male_1|caucasian_male_1Action
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/clavicle.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L/forearm.L_end
+        weight: 1
+      - path: caucasian_male_1/clavicle.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R/forearm.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: caucasian_male_1:Body
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: caucasian_male_1|caucasian_male_1Action
+      firstFrame: 80
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/clavicle.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L/forearm.L_end
+        weight: 1
+      - path: caucasian_male_1/clavicle.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R/forearm.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: caucasian_male_1:Body
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: caucasian_male_1|caucasian_male_1Action
+      firstFrame: 158
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/clavicle.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L/forearm.L_end
+        weight: 1
+      - path: caucasian_male_1/clavicle.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R/forearm.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: caucasian_male_1:Body
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Punch
+      takeName: caucasian_male_1|caucasian_male_1Action
+      firstFrame: 180
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/clavicle.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L
+        weight: 1
+      - path: caucasian_male_1/clavicle.L/deltoid.L/upper_arm.L/forearm.L/forearm.L_end
+        weight: 1
+      - path: caucasian_male_1/clavicle.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R
+        weight: 1
+      - path: caucasian_male_1/clavicle.R/deltoid.R/upper_arm.R/forearm.R/forearm.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_index.L/f_index.01.L/f_index.02.L/f_index.03.L/f_index.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_middle.L/f_middle.01.L/f_middle.02.L/f_middle.03.L/f_middle.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_pinky.L/f_pinky.01.L/f_pinky.02.L/f_pinky.03.L/f_pinky.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/palm_ring.L/f_ring.01.L/f_ring.02.L/f_ring.03.L/f_ring.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L
+        weight: 1
+      - path: caucasian_male_1/hand.L.control/hand.L/thumb.01.L/thumb.02.L/thumb.03.L/thumb.03.L_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_index.R/f_index.01.R/f_index.02.R/f_index.03.R/f_index.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_middle.R/f_middle.01.R/f_middle.02.R/f_middle.03.R/f_middle.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_pinky.R/f_pinky.01.R/f_pinky.02.R/f_pinky.03.R/f_pinky.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/palm_ring.R/f_ring.01.R/f_ring.02.R/f_ring.03.R/f_ring.03.R_end
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R
+        weight: 1
+      - path: caucasian_male_1/hand.R.control/hand.R/thumb.01.R/thumb.02.R/thumb.03.R/thumb.03.R_end
+        weight: 1
+      - path: caucasian_male_1:Body
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
