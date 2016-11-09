@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
 Shader "SnowShader" {
 	Properties{
 		_MainColor("Main Color", Color) = (1.0,1.0,1.0,1.0)
@@ -33,7 +35,7 @@ Shader "SnowShader" {
 	void vert(inout appdata_full v)
 	{
 		// Convert the normal to world coordinates
-		float4 sn = mul(_SnowDirection, _World2Object);
+		float4 sn = mul(_SnowDirection, unity_WorldToObject);
 		if (dot(v.normal, sn.xyz) >= _Snow)
 			v.vertex.xyz += (sn.xyz + v.normal) * _SnowDepth * _Snow;
 	}
