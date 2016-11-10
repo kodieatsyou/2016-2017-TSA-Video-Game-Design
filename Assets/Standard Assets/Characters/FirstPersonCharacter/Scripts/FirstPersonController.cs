@@ -41,7 +41,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-        private Animator anim;
 
         // Use this for initialization
         private void Start()
@@ -56,7 +55,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
-            anim = GetComponent<Animator>();
         }
 
 
@@ -104,7 +102,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // get a normal for the surface that is being touched to move along it
             RaycastHit hitInfo;
             Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                               m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+                               m_CharacterController.height/2f, ~0, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
             m_MoveDir.x = desiredMove.x*speed;
@@ -147,12 +145,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
             {
-                anim.SetBool("IsRunning", true);
                 m_StepCycle += (m_CharacterController.velocity.magnitude + (speed*(m_IsWalking ? 1f : m_RunstepLenghten)))*
                              Time.fixedDeltaTime;
-            } else
-            {
-                anim.SetBool("IsRunning", false);
             }
 
             if (!(m_StepCycle > m_NextStep))

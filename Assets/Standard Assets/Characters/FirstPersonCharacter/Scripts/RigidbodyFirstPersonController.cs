@@ -19,16 +19,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float JumpForce = 30f;
             public AnimationCurve SlopeCurveModifier = new AnimationCurve(new Keyframe(-90.0f, 1.0f), new Keyframe(0.0f, 1.0f), new Keyframe(90.0f, 0.0f));
             [HideInInspector] public float CurrentTargetSpeed = 8f;
-            private Animator anim;
 
 #if !MOBILE_INPUT
             private bool m_Running;
 #endif
-            public void Start()
-            {
-                anim.GetComponent<Animator>();
-                Debug.Log("animator init");
-            }
+
             public void UpdateDesiredTargetSpeed(Vector2 input)
             {
 	            if (input == Vector2.zero) return;
@@ -47,8 +42,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 					//forwards
 					//handled last as if strafing and moving forward at the same time forwards speed should take precedence
 					CurrentTargetSpeed = ForwardSpeed;
-                    anim.SetBool("IsRunning", true);
-                }
+				}
 #if !MOBILE_INPUT
 	            if (Input.GetKey(RunKey))
 	            {
@@ -58,7 +52,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	            else
 	            {
 		            m_Running = false;
-                }
+	            }
 #endif
             }
 
@@ -129,7 +123,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
-            Debug.Log("animator init");
         }
 
 
@@ -206,7 +199,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             RaycastHit hitInfo;
             if (Physics.SphereCast(transform.position, m_Capsule.radius * (1.0f - advancedSettings.shellOffset), Vector3.down, out hitInfo,
                                    ((m_Capsule.height/2f) - m_Capsule.radius) +
-                                   advancedSettings.stickToGroundHelperDistance, Physics.AllLayers, QueryTriggerInteraction.Ignore))
+                                   advancedSettings.stickToGroundHelperDistance, ~0, QueryTriggerInteraction.Ignore))
             {
                 if (Mathf.Abs(Vector3.Angle(hitInfo.normal, Vector3.up)) < 85f)
                 {
@@ -253,7 +246,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_PreviouslyGrounded = m_IsGrounded;
             RaycastHit hitInfo;
             if (Physics.SphereCast(transform.position, m_Capsule.radius * (1.0f - advancedSettings.shellOffset), Vector3.down, out hitInfo,
-                                   ((m_Capsule.height/2f) - m_Capsule.radius) + advancedSettings.groundCheckDistance, Physics.AllLayers, QueryTriggerInteraction.Ignore))
+                                   ((m_Capsule.height/2f) - m_Capsule.radius) + advancedSettings.groundCheckDistance, ~0, QueryTriggerInteraction.Ignore))
             {
                 m_IsGrounded = true;
                 m_GroundContactNormal = hitInfo.normal;
